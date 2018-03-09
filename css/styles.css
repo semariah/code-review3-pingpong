@@ -8,11 +8,17 @@
 }
 
 #github-col {
-  background-color: LightCoral;
+  border-right-style: solid;
+  border-right-color: LightCoral;
+
 }
 body{
-  border: 4px solid white;
+  /*border: 4px solid white;
   padding: 10px;
-  margin: 0 auto;
+  margin: 0 auto;*/
   background-color: #FAEBD7;
+}
+
+#github-col h4 {
+  color: DarkSeaGreen;
 }
