@@ -12,6 +12,11 @@
   border-right-color: LightCoral;
 
 }
+
+#result {
+  margin-top: 30px;
+  display: none;
+}
 body{
   /*border: 4px solid white;
   padding: 10px;
