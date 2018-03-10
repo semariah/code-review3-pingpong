@@ -1,5 +1,5 @@
 //business logic
-var pingPong = function(enterNumber){
+var //pingPong// = function(enterNumber){
   var resultArray = [];
   for (var i = 1; i <= enterNumber; i++){
     if(divisibleNumber(i, 15)){
@@ -33,7 +33,7 @@ $(document).ready(function(){
     //var numberArray = []
     var enterNumber = parseInt($("input#number").val());
     var result = pingPong(enterNumber);
-    $(".error").text("");
+    //$(".error").text("");
     $("ul").empty();
     $(pingPong(input)).forEach(function (value){
       if (value === "ping"){
