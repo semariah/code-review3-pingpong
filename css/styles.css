@@ -1,10 +1,21 @@
+body{
+  /*border: 4px solid white;
+  padding: 10px;
+  margin: 0 auto;*/
+  background-color: #FAEBD7;
+}
+
 .jumbotron {
   text-align: center;
   background-color: #FFB6C1;
+  text-shadow: 2px 2px white;
 }
 
 .blockquote-reverse{
   background-color: #FFF0F5;
+  font-weight: 600;
+  text-decoration-color: black;
+  text-shadow: 1px 1px white;
 }
 
 .output{
@@ -17,19 +28,9 @@
 
 }
 
-/*#buttom {
-  text-align: center;
-}*/
-
 #output {
   margin-top: 30px;
   display: none;
-}
-body{
-  /*border: 4px solid white;
-  padding: 10px;
-  margin: 0 auto;*/
-  background-color: #FAEBD7;
 }
 
 #github-col h4 {
