@@ -5,7 +5,7 @@ var pingPong = function(numberTo){
     var index = resultArray.indexOf(i);
     if(i % 15 === 0){
       resultArray.slice(index, 0);
-      resultArray.push("pingpong");
+      resultArray.push("ping pong");
     }else if (i % 5 === 0){
       resultArray.slice(index, 0);
       resultArray.push("pong");
@@ -16,10 +16,10 @@ var pingPong = function(numberTo){
       resultArray.push(i);
     }
   }
-    //debugger
-    //alert(resultArray);
-    //console.log(resultArray);
-  return resultArray;
+  //debugger
+  //alert(resultArray);
+  //console.log(resultArray);
+  return (resultArray);
 };
 
 

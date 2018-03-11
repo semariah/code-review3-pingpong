@@ -7,6 +7,10 @@
   background-color: #FFF0F5;
 }
 
+.output{
+  display: none;
+}
+
 #github-col {
   border-right-style: solid;
   border-right-color: LightCoral;
