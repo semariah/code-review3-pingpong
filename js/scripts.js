@@ -18,8 +18,8 @@ var pingPong = function(numberTo){
   }
 
     //alert(resultArray);
-    console.log(resultArray);
-  //return resultArray;
+    //console.log(resultArray);
+  return resultArray;
 };
 
 
