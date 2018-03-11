@@ -27,6 +27,7 @@ var pingPong = function(numberTo){
 $(document).ready(function(){
   $("form#num").submit(function(event){
     event.preventDefault();
+    debugger
     $(".result").empty();
     var numberTo = parseInt($("input#number").val());
     var result = pingPong(numberTo);
