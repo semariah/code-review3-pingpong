@@ -18,9 +18,9 @@ body{
   text-shadow: 1px 1px white;
 }
 
-.output{
+/*.output{
   display: none;
-}
+}*/
 
 #github-col {
   border-right-style: solid;
@@ -30,7 +30,7 @@ body{
 
 #output {
   margin-top: 30px;
-  display: none;
+  /*display: none;*/
 }
 
 #github-col h4 {

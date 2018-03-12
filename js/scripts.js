@@ -17,9 +17,9 @@ var pingPong = function(numberTo){
     }
   }
   //debugger
-  alert(resultArray);
+  //alert(resultArray);
   //console.log(resultArray);
-  //return (resultArray);
+  return resultArray;
 };
 
 
